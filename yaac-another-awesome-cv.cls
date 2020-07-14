@@ -201,6 +201,7 @@
 \newcommand{\mediumSymbol}{\faMedium}
 \newcommand{\bitbucketSymbol}{\faBitbucket}
 \newcommand{\websiteSymbol}{\faLink}
+\newcommand{\twitterSymbol}{\faTwitter}
 
 
 \newcommand\link[2]{\color{linkcolor}\href{#1}{#2}\color{Black} }
@@ -291,6 +292,10 @@
 % Render author's mobile phone (optional)
 % Usage: \smartphone{<mobile phone number>}
 \newcommand*\smartphone[1]{\socialtext{\mobileSymbol}{#1}}
+
+% Render author's linked-in (optional)
+% Usage: \twitter{<twitter-in-nick>}
+\newcommand*{\twitter}[1]{\sociallink{\twitterSymbol}{https://twitter.com/#1}{twitter.com/#1}}
 
 % Render author's tagline
 \newcommand\resumetitle[1]{
